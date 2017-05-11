@@ -1,7 +1,7 @@
 
-// Before submitting write your ID and finish time here. Your ID is written on project description sheets.
-// ID:
+// Before you commit and push write your student ID and finish time here.
 // Finish time:
+// Student ID:
 
 public class PlanetExplorer {
 	public PlanetExplorer(int x, int y, String obstacles){
