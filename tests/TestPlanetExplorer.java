@@ -32,4 +32,12 @@ public class TestPlanetExplorer {
 		exp.turnRight();
 		assertEquals("E", exp.getDirection());
 	}
+	
+	@Test
+	public void testTurnLeft()
+	{
+		Explorer exp = new Explorer();
+		exp.turnLeft();
+		assertEquals("W", exp.getDirection());
+	}
 }
