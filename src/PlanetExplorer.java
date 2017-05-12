@@ -2,8 +2,8 @@ import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
 import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
 
 // Before you commit and push write your student ID and finish time here.
-// Finish time:
-// Student ID:
+// Finish time: 21:02
+// Student ID: IT35-2015
 
 public class PlanetExplorer {
 	private int grid_x;

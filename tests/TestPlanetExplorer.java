@@ -12,7 +12,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void testMovingForth() throws PlanetExplorerException
 	{
-		Explorer exp = new Explorer();		
+		Explorer exp = new Explorer(4, 4, "");		
 		exp.moveForth();
 		assertEquals(1, exp.getY());
 	}
@@ -20,7 +20,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void testMovingBack() throws PlanetExplorerException
 	{
-		Explorer exp = new Explorer();
+		Explorer exp = new Explorer(4, 4, "");
 		exp.moveBack();
 		assertEquals(4, exp.getY());
 	}
