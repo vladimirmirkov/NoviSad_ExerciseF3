@@ -24,4 +24,12 @@ public class TestPlanetExplorer {
 		exp.moveBack();
 		assertEquals(4, exp.getY());
 	}
+	
+	@Test
+	public void testTurnRight()
+	{
+		Explorer exp = new Explorer();
+		exp.turnRight();
+		assertEquals("E", exp.getDirection());
+	}
 }

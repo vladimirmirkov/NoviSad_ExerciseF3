@@ -70,3 +70,14 @@ EditAction 1494615218228 TestPlanetExplorer.java 432 3 7 2
 UnitTestCaseAction 1494615218765 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1494615218766 TestPlanetExplorer.java FAIL
 EditAction 1494615243183 TestPlanetExplorer.java 432 3 7 2
+UnitTestCaseAction 1494615243677 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494615243678 TestPlanetExplorer.java FAIL
+RefactoringAction 1494615315113 Explorer.java ADD void turn FIELD
+RefactoringAction 1494615317123 Explorer.java RENAME turn=>void turnRight FIELD
+RefactoringAction 1494615319629 Explorer.java RENAME turnRight=>void turnRight() METHOD
+RefactoringAction 1494615442128 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1494615444637 TestPlanetExplorer.java RENAME test=>void testTurn FIELD
+RefactoringAction 1494615447144 TestPlanetExplorer.java RENAME testTurn=>void testTurnRigh FIELD
+RefactoringAction 1494615448153 TestPlanetExplorer.java RENAME testTurnRigh=>void testTurnRight FIELD
+RefactoringAction 1494615449158 TestPlanetExplorer.java RENAME testTurnRight=>void testTurnRight() METHOD
+EditAction 1494615511379 TestPlanetExplorer.java 569 4 10 3
