@@ -38,6 +38,26 @@ public class Explorer {
 			x = grid[0];
 	}
 	
+	public void moveBack()
+	{
+		if(direction == "N" && y > 0)
+			y--;
+		else if(direction == "N" && y == 0)
+			y = grid[1];
+		if(direction == "E" && x > 0)
+			x--;
+		else if(direction == "E" && x == 0)
+			x = grid[0];
+		if(direction == "S" && y < grid[1])
+			y++;
+		else if(direction == "S" && y == grid[1])
+			y = 0;
+		if(direction == "W" && x < grid[0])
+			x++;
+		else if(direction == "W" && x == grid[0])
+			x = 0;
+	}
+	
 
 	public int getX() {
 		return x;

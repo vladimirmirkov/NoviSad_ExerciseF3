@@ -22,6 +22,6 @@ public class TestPlanetExplorer {
 	{
 		Explorer exp = new Explorer();
 		exp.moveBack();
-		assertEquals(4, exp.getX());
+		assertEquals(4, exp.getY());
 	}
 }
