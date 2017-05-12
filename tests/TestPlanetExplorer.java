@@ -10,7 +10,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testMovingForth()
+	public void testMovingForth() throws PlanetExplorerException
 	{
 		Explorer exp = new Explorer();		
 		exp.moveForth();
@@ -18,7 +18,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testMovingBack()
+	public void testMovingBack() throws PlanetExplorerException
 	{
 		Explorer exp = new Explorer();
 		exp.moveBack();
@@ -26,7 +26,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testTurnRight()
+	public void testTurnRight() throws PlanetExplorerException
 	{
 		Explorer exp = new Explorer();
 		exp.turnRight();
@@ -34,7 +34,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void testTurnLeft()
+	public void testTurnLeft() throws PlanetExplorerException
 	{
 		Explorer exp = new Explorer();
 		exp.turnLeft();

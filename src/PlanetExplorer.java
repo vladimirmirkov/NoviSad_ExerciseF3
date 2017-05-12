@@ -1,3 +1,5 @@
+import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
+import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
 
 // Before you commit and push write your student ID and finish time here.
 // Finish time:
@@ -22,7 +24,7 @@ public class PlanetExplorer {
 		this.Obstacles = obstacles;
 	}
 	
-	public String executeCommand(String command){
+	public String executeCommand(String command) throws PlanetExplorerException{
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -32,12 +34,18 @@ public class PlanetExplorer {
 		 * The return string is in the format: "(pos_x,pos_y,facing)(obs1_x,obs1_y)(obs2_x,obs2_y)..(obsN_x,obsN_y)" 
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
-		 */
-		
-		if(command == "f")
-			exp.moveForth();
-		else if(command == "b")
-			exp.moveBack();
+		 */	
+		//for(int i = 0; i < command.length(); i++)
+		//{
+			if(command == "f")
+				exp.moveForth();
+			else if(command == "b")
+				exp.moveBack();
+			else if(command == "r")
+				exp.turnRight();
+			else if(command == "r")
+				exp.turnLeft();
+		//}
 		
 		return null;
 	}

@@ -92,3 +92,15 @@ RefactoringAction 1494615581439 TestPlanetExplorer.java ADD void test FIELD
 RefactoringAction 1494615584948 TestPlanetExplorer.java RENAME test=>void testTurnLeft FIELD
 RefactoringAction 1494615585956 TestPlanetExplorer.java RENAME testTurnLeft=>void testTurnLeft() METHOD
 EditAction 1494615623804 TestPlanetExplorer.java 704 5 13 4
+UnitTestCaseAction 1494615624344 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494615624345 TestPlanetExplorer.java FAIL
+RefactoringAction 1494615979432 PlanetExplorer.java ADD import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array IMPORT
+RefactoringAction 1494616109955 PlanetExplorer.java ADD import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List IMPORT
+CompilationAction 1494616377927 PlanetExplorer.java
+CompilationAction 1494616377928 TestPlanetExplorer.java
+CompilationAction 1494616414035 TestPlanetExplorer.java
+UnitTestCaseAction 1494616419914 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494616419914 TestPlanetExplorer.java FAIL
+CompilationAction 1494616476954 PlanetExplorer.java
+UnitTestCaseAction 1494616477241 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494616477242 TestPlanetExplorer.java FAIL

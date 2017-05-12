@@ -4,7 +4,7 @@ public class Explorer {
 	private int x = 0;
 	private int y = 0;
 	private String direction = "N";
-	private int[] grid = {4, 4};
+	private int[] grid;
 	
 	public Explorer()
 	{
@@ -13,12 +13,13 @@ public class Explorer {
 	
 	public Explorer(int x, int y, String obstacles)
 	{
-		this.setX(x);
-		this.setY(y);
+		grid[0] = x;
+		grid[1] = y;
+		
 		
 	}
 	
-	public void moveForth()
+	public void moveForth() throws PlanetExplorerException
 	{
 		if(direction == "N" && y < grid[1])
 			y++;
@@ -38,7 +39,7 @@ public class Explorer {
 			x = grid[0];
 	}
 	
-	public void moveBack()
+	public void moveBack() throws PlanetExplorerException
 	{
 		if(direction == "N" && y > 0)
 			y--;
@@ -58,7 +59,7 @@ public class Explorer {
 			x = 0;
 	}
 	
-	public void turnRight()
+	public void turnRight() throws PlanetExplorerException
 	{
 		if(direction == "N")
 			direction = "E";
@@ -68,6 +69,18 @@ public class Explorer {
 			direction = "W";
 		else if(direction == "W")
 			direction = "N";
+	}
+	
+	public void turnLeft() throws PlanetExplorerException
+	{
+		if(direction == "N")
+			direction = "W";
+		else if(direction == "E")
+			direction = "N";
+		else if(direction == "S")
+			direction = "E";
+		else if(direction == "W")
+			direction = "S";
 	}
 	
 
