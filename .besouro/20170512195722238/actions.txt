@@ -50,3 +50,4 @@ RefactoringAction 1494614568787 PlanetExplorer.java RENAME Explorer=>String Obst
 RefactoringAction 1494614695630 Explorer.java ADD void turn FIELD
 RefactoringAction 1494614703644 Explorer.java REMOVE turn FIELD
 EditAction 1494614750166 TestPlanetExplorer.java 305 2 4 1
+EditAction 1494614750790 PlanetExplorer.java 1483 2 5 0
