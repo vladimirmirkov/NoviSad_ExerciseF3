@@ -35,9 +35,9 @@ public class PlanetExplorer {
 		 */
 		
 		if(command == "f")
-		{
 			exp.moveForth();
-		}
+		else if(command == "b")
+			exp.moveBack();
 		
 		return null;
 	}

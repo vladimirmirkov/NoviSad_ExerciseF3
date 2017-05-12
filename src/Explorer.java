@@ -58,6 +58,18 @@ public class Explorer {
 			x = 0;
 	}
 	
+	public void turnRight()
+	{
+		if(direction == "N")
+			direction = "E";
+		else if(direction == "E")
+			direction = "S";
+		else if(direction == "S")
+			direction = "W";
+		else if(direction == "W")
+			direction = "N";
+	}
+	
 
 	public int getX() {
 		return x;
