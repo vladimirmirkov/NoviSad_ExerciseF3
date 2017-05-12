@@ -56,3 +56,14 @@ UnitTestSessionAction 1494614752506 TestPlanetExplorer.java FAIL
 UnitTestCaseAction 1494614796947 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1494614796947 TestPlanetExplorer.java FAIL
 EditAction 1494614812231 TestPlanetExplorer.java 305 2 4 1
+UnitTestCaseAction 1494614812842 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1494614812842 TestPlanetExplorer.java FAIL
+RefactoringAction 1494614853837 Explorer.java ADD void moveB FIELD
+RefactoringAction 1494614855347 Explorer.java RENAME moveB=>void moveBack FIELD
+RefactoringAction 1494614858361 Explorer.java RENAME moveBack=>void moveBack() METHOD
+RefactoringAction 1494615093000 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1494615094009 TestPlanetExplorer.java RENAME test=>void testM FIELD
+RefactoringAction 1494615096017 TestPlanetExplorer.java RENAME testM=>void testMoving FIELD
+RefactoringAction 1494615098027 TestPlanetExplorer.java RENAME testMoving=>void testMovingBack FIELD
+RefactoringAction 1494615101538 TestPlanetExplorer.java RENAME testMovingBack=>void testMovingBack() METHOD
+EditAction 1494615218228 TestPlanetExplorer.java 432 3 7 2

@@ -16,4 +16,12 @@ public class TestPlanetExplorer {
 		exp.moveForth();
 		assertEquals(1, exp.getY());
 	}
+	
+	@Test
+	public void testMovingBack()
+	{
+		Explorer exp = new Explorer();
+		exp.moveBack();
+		assertEquals(4, exp.getX());
+	}
 }
