@@ -8,4 +8,12 @@ public class TestPlanetExplorer {
 	public void test_executeCommand() {
 		fail("Not yet implemented");
 	}
+	
+	@Test
+	public void testMovingForth()
+	{
+		Explorer exp = new Explorer();		
+		exp.moveForth();
+		assertEquals(1, exp.getX());
+	}
 }
