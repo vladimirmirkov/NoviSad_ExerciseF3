@@ -4,7 +4,7 @@ public class Explorer {
 	private int x = 0;
 	private int y = 0;
 	private String direction = "N";
-	private int[] grid;
+	private int[] grid = {4, 4};
 	
 	public Explorer()
 	{
